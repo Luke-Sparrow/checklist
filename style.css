@@ -1,0 +1,39 @@
+h1 {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	padding: 10px;
+	background-color: skyblue;
+	text-decoration: color: maroon;
+}
+
+h2 {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+.main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+#masterlist {
+	display: grid;
+	align-items: left;
+}
+
+/* Make the delete button smaller and inline with the li */
+#delete {
+	width: auto;
+	height: auto;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+.done {
+	text-decoration: line-through;
+}
