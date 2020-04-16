@@ -9,16 +9,20 @@
 	<h1 id="Heading">To Do List</h1>
 	<h2 id="instructions">Things to do today:</h2>
 
-	<input id="userinput" type="text" name="userinput" placeholder="Enter new items here">
+	<div class="main">
+		<span class="interact">
+			<input id="userinput" type="text" name="userinput" placeholder="Enter new items here">
 
-	<button id="enter">Enter</button>
+			<button id="enter">Enter</button>
+		</span>
 
-	<ul id="masterlist">
-		<li>Code!</li>
-	</ul>
+		<ul id="masterlist">
+			<li class="item">Code! <button class="delete">Delete</button></li>
+		</ul>
+	</div>
 
 
-	<script src="script.js" type="text/javascript" charset="utf-8" async defer ref></script>
-	<!-- <script src="script2.js" type="text/javascript" charset="utf-8" async defer></script> -->
+	<!-- <script src="script.js" type="text/javascript" charset="utf-8" async defer ref></script> -->
+	<script src="script2.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
